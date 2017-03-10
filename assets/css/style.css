@@ -1,5 +1,11 @@
+html, body {
+  height: 100%;
+  margin: 0;
+
+}
 body{
-	background-color: #ededed;
+	background-image: url("../images/cardboard_flat.png");
+	background-repeat: repeat;
 	color: #777777;
 }
 header{
@@ -8,15 +14,61 @@ header{
 	padding-top: 30px;
 	font-family:'Georgia', Times, Times New Roman, serif;
 }
+footer{
+	
+	height: 100px;
+	background: #666666;
+	border-top: 10px solid #4aaaa5;
+	margin-top: 20px;
+	
+
+}
 h2{
 	font-weight: bold;
 	padding: 20px;
+}
+h6{
+	text-align: center;
+	padding-top:43px;
+	padding-bottom: 43px;
+	color:#fff;
+}
+p{
+	margin: 20px;
+	color: #777777;
+}
+.connect img{
+	width: 60px;
+	height: 60px;
+	margin: 5px;
+	/*padding-right: 5px;*/
+	padding-bottom: 20px;
 }
 #mainh2{
 	font-size: 200%;
 }
 #sideh2{
 	font-size: 150%;
+}
+.profimg{
+	height: 50%;
+	width: 50%;
+	padding-left: 20px;
+	padding-right:20px;
+	float: left;
+
+}
+
+.line{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	border: 1px solid #cccccc;
+
+}
+.copyright{
+	width: 960px;
+	margin: 0 auto;
 }
 .size{
 	width: 960px;
@@ -46,6 +98,10 @@ h2{
 	clear: both;
 	/*min-height: 1000px;*/
 	border-top: 2px solid #cccccc;
+	min-height: calc(100vh - 236px);
+	line-height: 150%;
+
+
 }
 .about{
 	width: 646px;
@@ -59,7 +115,7 @@ h2{
 }
 .connect{
 	text-align: center;
-	width: 270px;
+	width: 266px;
 	float:right;
 	/*padding: 30px;*/
 	background-color: #fff;
